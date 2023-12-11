@@ -5,7 +5,7 @@
 
 sale_data:
   type: pandas.CSVDataSet
-  filepath: sales-project/data/01_raw/KAG_conversion_data.csv
+  filepath: /home/runner/work/test-thc/test-thc/sales-project/data/01_raw/KAG_conversion_data.csv
 
 # preprocessed_data:
 #   type: pickle.PickleDataSet
