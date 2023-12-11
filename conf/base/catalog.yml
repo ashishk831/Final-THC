@@ -5,7 +5,7 @@
 
 sale_data:
   type: pandas.CSVDataSet
-  filepath: /home/unibash/G3/B/SALE_CNV_OPT/sales-project/data/01_raw/KAG_conversion_data.csv
+  filepath: sales-project/data/01_raw/KAG_conversion_data.csv
 
 # preprocessed_data:
 #   type: pickle.PickleDataSet
