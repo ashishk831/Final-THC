@@ -1,4 +1,4 @@
-# FRAUD-PREDICTION-MLOPs
+# SALE-CONVERTION-OPTIMISATIONS-MLOPs
 
 ## Introduction
 In todays world with the increase in digitalization the digital transactions are also increasing and so the frauds.The Fraud transaction are increasing at 27% per year around the world.In one day there is more than 50 million transactions take place in USA alone,so predicting the fraud transaction is a difficult task.This posses a great challenge for banks,customer as well as governments.This project focus on detecting the fraud transaction using Machine learning techniques.
@@ -15,10 +15,9 @@ Let's jump into the Python packages you need. Within the Python environment of y
 
 ```bash
 git clone https://github.com/apache/airflow
-cd airflow-projects/fraud-prediction
+cd sale-projects/sale-prediction
 pip install -r requirements.txt
 ```
-![image](https://github.com/ashishk831/FRAUD-PREDICTION-MLOPs/assets/81232686/f2c7a96a-300d-497c-aa68-91f3315a2ca9)
 
 Airflow, an open source Apache Software Foundation workflow management platform, is used to automate, schedule, and monitor workflows. Airflow workflows are defined as directed acyclic graphs (DAGs). DAGs are made up of tasks that are executed in a specific order. Airflow provides a number of features that make it a good choice for workflow management, including:
 
