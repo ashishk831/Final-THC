@@ -35,6 +35,10 @@ model = load_pickle_from_latest_folder(directory_path, pickle_filename)
 
 def predict(ad_id, age, gender, interest, Impressions, Clicks, Spent, Total_Conversion, CTR, CPC):
     # Convert relevant columns to appropriate types
+    if gender == 'Male':
+        gender = 0
+    else:
+        gender = 1
     ad_id = int(ad_id)
     age = int(age)
     gender = int(gender)
@@ -45,6 +49,8 @@ def predict(ad_id, age, gender, interest, Impressions, Clicks, Spent, Total_Conv
     Total_Conversion = int(Total_Conversion)
     CTR = float(CTR)
     CPC = float(CPC)
+
+    
 
     # Create a dictionary with input values
     input_data = {
@@ -71,19 +77,19 @@ def predict(ad_id, age, gender, interest, Impressions, Clicks, Spent, Total_Conv
 
 # Define the input components for Gradio with labels and info
 inputs = [
-    gr.Number(label='Ad ID', info='Enter the advertisement ID'),
-    gr.Number(label='Age', info='Enter the target age group'),
-    gr.Number(label='Gender', info='Enter the gender (0 for female, 1 for male)'),
+    gr.Number(label='Ad ID', info='Enter the advertisement ID',minimum= 0),
+    gr.Number(label='Age', info='Enter the target age group',minimum= 0),
+    gr.Radio(["Male", "Female"], label="Gender", info="Enter the gender"),
     gr.Dropdown(label='Interest', choices=[2, 7, 10, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 
                     26, 27, 28, 29, 30, 31, 32, 36, 63, 64, 65, 66, 100, 101, 102, 
                     103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114], 
                     info='Select the target audience interest'),
-    gr.Number(label='Impressions', info='Enter the number of impressions'),
-    gr.Number(label='Clicks', info='Enter the number of clicks'),
-    gr.Number(label='Spent', info='Enter the amount spent on the ad'),
-    gr.Number(label='Total Conversion', info='Enter the total conversion count'),
-    gr.Number(label='CTR', info='Enter the Click-Through Rate'),
-    gr.Number(label='CPC', info='Enter the Cost Per Click')
+    gr.Number(label='Impressions', info='Enter the number of impressions',minimum= 0),
+    gr.Number(label='Clicks', info='Enter the number of clicks',minimum= 0),
+    gr.Number(label='Spent', info='Enter the amount spent on the ad',minimum= 0),
+    gr.Number(label='Total Conversion', info='Enter the total conversion count',minimum= 0),
+    gr.Number(label='CTR', info='Enter the Click-Through Rate',minimum= 0),
+    gr.Number(label='CPC', info='Enter the Cost Per Click',minimum= 0)
 ]
 
 # Create Gradio interface with improved styling
