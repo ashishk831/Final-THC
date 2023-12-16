@@ -96,13 +96,15 @@ As we have half million test record on which model is neither training or tested
 
 ## Model Monitoring and Log Analysis
 
-Airflow also offer the feature to monitor our model in real-time. When the DAGs are executed there are different status through which it passes.Below is status code show.  
-![image](https://github.com/ashishk831/FRAUD-PREDICTION-MLOPs/assets/81232686/c6f942af-ad8b-45c3-be13-52300a737b24)
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/9fda8085-5ce2-408f-a75b-d0c8771edf5c)
+
 
 In Airflow we can also monitor the logs, DAGS generate log when the pipeline is executed. Below is the image.
-![image](https://github.com/ashishk831/FRAUD-PREDICTION-MLOPs/assets/81232686/122eaa72-a56b-43f1-b4a0-cf55487ba226)
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/15a2555b-4761-4fa2-92a4-06f78eed9db6)
 
-## Demo Streamlit App ![image](https://github.com/ashishk831/FRAUD-PREDICTION-MLOPs/assets/81232686/85fbe63c-37e7-4757-af9b-7d15127ef02a) 
+
+## Demo Streamlit App 
+
 
 
 There is a live demo of this project using Streamlit which you can find here. It takes some input features for the product and predicts the customer satisfaction rate using the latest trained models. If you want to run this Streamlit app in your local system, you can run the following command to access the app locally.
