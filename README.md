@@ -105,7 +105,7 @@ In Kedro we can also monitor the logs, generated when pipeline is trigged. Below
 ![image](https://github.com/ashishk831/Final-THC/assets/81232686/15a2555b-4761-4fa2-92a4-06f78eed9db6)
 
 
-## Demo Streamlit App 
+## Demo Gradio App 
 
 
 
@@ -121,5 +121,6 @@ http://127.0.0.1:7860/
 
 Below is the sample model result.
 
-![image](https://github.com/ashishk831/Final-THC/assets/81232686/27395c6d-4aad-40cd-a508-a9b747b786d4)
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/aff3f6fc-cedf-404d-b306-9d040851ffda)
+
 
