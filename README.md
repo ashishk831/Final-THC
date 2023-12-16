@@ -27,6 +27,23 @@ Kerdo is a open-source tool for machine learning engineers.
 ```bash
 #Installing kedro
 
+pip install kedro
+
+#Installing kedro-viz
+
+pip install kedro-viz
+
+#create project
+kedro new
+
+#create pipeline
+kedro pipeline create <pipeline-name>
+
+#Run kedro
+kedro run
+
+#Visualizing pipeline
+kedro viz
 ```
 
 
