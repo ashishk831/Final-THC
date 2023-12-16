@@ -47,15 +47,12 @@ kedro viz
 ```
 
 
-note
-
-
-```note```
-
-
-
 ## Solution
-Solution
+Once model is build, it can be deployed in production to track live customer and see whether the right set of customer are being targetted. Deepchecks can be used to track model performance. This helps in maximizing the model business performace and growth.
+
+Using Kedro we can monitor the logs in real-time as well as old logs can also be checked.
+
+We will discuss the how to build and configure kedro pipeline. I aslo deployed a gradio application to showcase the final end product.
 
 
 ## Training dataset
@@ -87,32 +84,23 @@ dataset description
 ## Training Pipeline
 Our standard training pipeline consists of several steps:
 
-* ``data_preprocessing``:- data_preprocessing
+* ``data_preprocessing``:- We will take the raw data and process it to standard polished data for model training.
 
-* ``data_split``:- This operator will split the dataset into two part. On first part the model will be trained and on second set model will be tested.
+* ``data_split``:- This pipeline will split the dataset into two part. On first part the model will be trained and on second set model will be tested.
 
-* ``model_training``:- This operator is used to train model on dataset.
+* ``model_training``:- This pipeline is used to train model on dataset using hyperparameter.
 
-* ``model_evaluation``:- This operator is used to evaluate the model performance.
+* ``model_evaluation``:- This pipeline is used to evaluate the model performance.
 
 Below is the pipeline workflow which we will implement in this project.
 
-## Model Selection Pipeline
-In model training pipeline we have used ensemble learning with DecisionTreeClassifier, RandomForestClassifier, AdaBoostClassifier and GradientBoostingClassifier. Once model training is completed then model evaluatoin will be executed. Then we will created model selection pipeline which compare the model and select the best model.
-
-* ``model_selection_operator``:- In model training operator we used multiple ML algorithm to train model. In this operator we will compare the different model and choose the best model. 
-
-## Model Prediction Pipeline
-As we have half million test record on which model is neither training or tested. We will use this data set to check how good is our model.  
-
-* ``model_prediction_operator``:- This operator is used to predict the model on new unseen dataset.
 
 ## Model Monitoring and Log Analysis
 
 ![image](https://github.com/ashishk831/Final-THC/assets/81232686/9fda8085-5ce2-408f-a75b-d0c8771edf5c)
 
 
-In Airflow we can also monitor the logs, DAGS generate log when the pipeline is executed. Below is the image.
+In Kedro we can also monitor the logs, generated when pipeline is trigged. Below is the image.
 ![image](https://github.com/ashishk831/Final-THC/assets/81232686/15a2555b-4761-4fa2-92a4-06f78eed9db6)
 
 
