@@ -1,12 +1,10 @@
 # SALE-CONVERTION-OPTIMISATIONS-MLOPs
 
 ## Introduction
-Write intro
-
+Advertising product to right set of customer is a bigger challenge for the company. There are many ways to target customer through online channels such as youtube, facebook, google. These company provide them platform to show their ads. But as a company who want to increase their revenue by selling product showing ads will not help much. There needs to be a method through which we can ensure that we are reaching right customer and converting them as a customer to generate revenue.
 
 ## Problem Statement
-Describe problem
-
+In this project we will build a model which will predict whether the customer will buy product or not after seeing the ads. This will be help company in utilizing there resource more and getting right set of customer. We can also monitor our model to see if there is any change in data or model prediction. 
 
 ## Deployment
 
@@ -19,14 +17,12 @@ pip install -r requirements.txt
 ```
 
 Kedro
+Kerdo is a open-source tool for machine learning engineers. 
+* ``Handles Complexity:`` It provide a stucture to test data which can be pushed to production after successful testing.
 
-* ``Scalability:`` Airflow can be scaled to handle a large number of tasks and workflows.
+* ``Standardisation:`` It provides standard template for project. Making it earrlier to understand for others.
 
-* ``Reliability:`` Airflow is designed to be reliable and fault-tolerant.
-
-* ``Flexibility:`` Airflow can be used to automate a wide variety of workflows, from simple to complex.
-
-* ``Extensibility:`` Airflow can be easily extended to meet the needs of specific organizations.
+* ``Production-Ready:`` Code can be easily pushed to production with exploratory code that you can transition to reproducible, maintainable, and modular experiments.
 
 ```bash
 #Installing kedro
