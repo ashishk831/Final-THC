@@ -101,6 +101,7 @@ Below is the pipeline workflow which we will implement in this project.
 
 
 In Kedro we can also monitor the logs, generated when pipeline is trigged. Below is the image.
+
 ![image](https://github.com/ashishk831/Final-THC/assets/81232686/15a2555b-4761-4fa2-92a4-06f78eed9db6)
 
 
