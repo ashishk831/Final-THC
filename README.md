@@ -111,12 +111,15 @@ In Kedro we can also monitor the logs, generated when pipeline is trigged. Below
 
 There is a live demo of this project using Streamlit which you can find here. It takes some input features for the product and predicts the customer satisfaction rate using the latest trained models. If you want to run this Streamlit app in your local system, you can run the following command to access the app locally.
 
-``streamlit run streamlit_app.py``
+``python ml_app.py``
 
 The cloud version of app can also be accessed using below url.
 
 ```
-https://fraud-prediction-mlops-d8rcgc2prmv9xapx5ahhhn.streamlit.app/
+http://127.0.0.1:7860/
 ```
 
 Below is the sample model result.
+
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/27395c6d-4aad-40cd-a508-a9b747b786d4)
+
