@@ -116,7 +116,7 @@ There is a live demo of this project using Streamlit which you can find here. It
 The cloud version of app can also be accessed using below url.
 
 ```
-http://127.0.0.1:7860/
+https://huggingface.co/spaces/ashishk566/sales-str-opt
 ```
 
 Below is the sample model result.
