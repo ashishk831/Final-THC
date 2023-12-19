@@ -105,13 +105,13 @@ In Kedro we can also monitor the logs, generated when pipeline is trigged. Below
 ![image](https://github.com/ashishk831/Final-THC/assets/81232686/15a2555b-4761-4fa2-92a4-06f78eed9db6)
 
 
-## Demo Gradio App 
+## Demo Streamlit App 
 
 
 
-There is a live demo of this project using Streamlit which you can find here. It takes some input features for the product and predicts the customer satisfaction rate using the latest trained models. If you want to run this Streamlit app in your local system, you can run the following command to access the app locally.
+There is a live demo of this project using Streamlit which you can find here. It takes some input features for the product and predicts the approved convertion rate using the latest trained models. If you want to run this Streamlit app in your local system, you can run the following command to access the app locally.
 
-``python ml_app.py``
+``python streamlit_app.py``
 
 The cloud version of app can also be accessed using below url.
 
@@ -121,6 +121,7 @@ http://127.0.0.1:7860/
 
 Below is the sample model result.
 
-![image](https://github.com/ashishk831/Final-THC/assets/81232686/aff3f6fc-cedf-404d-b306-9d040851ffda)
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/11e5ccee-3436-4ca2-82d2-6a39cdd89214)
+
 
 
