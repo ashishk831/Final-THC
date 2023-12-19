@@ -121,7 +121,7 @@ https://huggingface.co/spaces/ashishk566/sales-str-opt
 
 Below is the sample model result.
 
-![image](https://github.com/ashishk831/Final-THC/assets/81232686/11e5ccee-3436-4ca2-82d2-6a39cdd89214)
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/a09bc592-50f6-4ddd-9616-616a432f93f0)
 
 
 
