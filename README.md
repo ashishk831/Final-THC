@@ -16,7 +16,7 @@ cd sale-projects/sale-prediction
 pip install -r requirements.txt
 ```
 
-Kedro
+## Kedro
 Kerdo is a open-source tool for machine learning engineers. 
 * ``Handles Complexity:`` It provide a stucture to test data which can be pushed to production after successful testing.
 
