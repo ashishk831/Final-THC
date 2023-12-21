@@ -111,7 +111,16 @@ In Kedro we can also monitor the logs, generated when pipeline is trigged. Below
 
 There is a live demo of this project using Streamlit which you can find here. It takes some input features for the product and predicts the approved convertion rate using the latest trained models. If you want to run this Streamlit app in your local system, you can run the following command to access the app locally.
 
-``python streamlit_app.py``
+``streamlit run streamlit_app.py``
+
+
+Below is the sample model result.
+
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/a09bc592-50f6-4ddd-9616-616a432f93f0)
+
+
+## Deploying model in HuggingFace
+Now that we have build an end-to-end sale optimization model, we will deploy the model using HuggingFace. In huggingface, we need to configure the README.md file for model deployment. Huggingface take care of CI/CD. As whenever there is change in file, it will automatically redeploy the app.
 
 The cloud version of app can also be accessed using below url.
 
@@ -119,9 +128,4 @@ The cloud version of app can also be accessed using below url.
 https://huggingface.co/spaces/ashishk566/sales-str-opt
 ```
 
-Below is the sample model result.
-
-![image](https://github.com/ashishk831/Final-THC/assets/81232686/a09bc592-50f6-4ddd-9616-616a432f93f0)
-
-
-
+![image](https://github.com/ashishk831/Final-THC/assets/81232686/5fa7e703-78c6-4ee3-a2e3-bee76c3b4af4)
